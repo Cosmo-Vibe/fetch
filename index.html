@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+    <meta name="author" content="Nourmahamede Dramsy Shahm" />
+    <meta name="description" content="DO NOT FETCH ME !" />
+    <title>Fetch me !</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navBar">
+        <h1>The fetched posts</h1>
+        <div class="toggle-container">
+          <button
+            class="theme-btn light"
+            onclick="setTheme('light')"
+            title="Light mode"
+          >
+            <img
+              src="./assets/img/icon/1530387_weather_morning_sun_sunrise_icon.png"
+              alt="Icone du soleil pour le mode clair"
+            />
+          </button>
+          <button
+            class="theme-btn dark"
+            onclick="setTheme('dark')"
+            title="Dark mode"
+          >
+            <img
+              src="./assets/img/icon/1530378_weather_moon_moonrise_night_icon.png"
+              alt="Icone de lune pour le mode sombre"
+            />
+          </button>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <div id="posts-container"></div>
+      </article>
+    </main>
+
+    <footer>
+        <h2 class="footer">Page dev : N. Dramsy Shahm</h2>
+      </footer>
+    <script src="./assets/scripts/script.js"></script>
+  </body>
+</html>
